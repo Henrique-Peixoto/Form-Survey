@@ -1,3 +1,112 @@
 body {
-	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+	font-family: 'Avalon Demi', 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+main {
+	padding: 0;
+	background-color: rgba(87, 86, 138, 0.705);
+	display: block;
+	color: white;
+	font-size: 18px;
+}
+
+header {
+	margin-top: 0;
+}
+
+#title {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 40px;
+	margin-bottom: 0;
+}
+
+#description {
+	text-align: center;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+#form {
+	max-width: 650px;
+	padding: 0;
+	background-color: rgba(36, 36, 68, 0.897);
+	margin: 10px auto 0px auto;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+#survey-form {
+	margin: 0px 40px 0px 40px;
+	padding: 30px 0px 50px 0px;
+}
+
+p.input-title {
+	margin-bottom: 5px;
+}
+
+input.input-text {
+	width: 100%;
+	border-radius: 3px;
+	border: none;
+	height: 40px;
+	padding: 0;
+}
+
+#number {
+	font-size: 18px;
+	padding: 0 auto 0 10px;
+}
+
+input::placeholder {
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.select-menu {
+	height: 40px;
+	font-size: 16px;
+	color: grey;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: none;
+	width: 100%;
+}
+
+input.radio-rec {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+input.checkbox {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+	padding: 0;
+	font-size: 15px;
+}
+
+textarea::placeholder {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#submit {
+	width: 100%;
+	height: 40px;
+	background-color: seagreen;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	font-size: 15px;
+	margin-top: 20px;
 }
